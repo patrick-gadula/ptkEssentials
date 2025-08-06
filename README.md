@@ -46,7 +46,7 @@ A custom Minecraft server plugin designed to enhance gameplay with economy tools
 
 ## Compatibility
 
-- Minecraft version: **1.15**
+- Minecraft version: **1.21.4**
 - Server type: **Spigot**
 
 ## License
