@@ -1,6 +1,6 @@
 # ptkEssentials
 
-A custom Minecraft server plugin designed to enhance gameplay with economy tools, clan features, and quality-of-life utilities. Built for Spigot API version 1.15.
+A custom Minecraft server plugin designed to enhance gameplay with economy tools, clan features, and quality-of-life utilities. Built for Spigot, MC version 1.21.4.
 
 ## Features
 
