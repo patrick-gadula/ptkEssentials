@@ -1,0 +1,73 @@
+name: ptkEssentials
+main: com.patrickg.Plugin
+version: 0.0.5
+api-version: 1.15
+description: ptkEssentials plugin 
+commands:
+#Economy
+  balance:
+    description: Checks your balance
+    usage: /balance
+    aliases: [bal]
+  baltop:
+    description: Checks Top 10 balances
+    usage: /baltop
+  pay:
+    description: Pay a person
+    usage: /pay <player> <amount>
+  donate:
+    description: Donate money to another player
+    usage: /donate <player> <amount>
+    permission: ptk.donate
+    permission-message: You do not have permission to use /donate.
+# Quality of Life
+  shop:
+    description: Open Shop GUI
+    usage: /shop
+  challenge:
+    description: Checks your daily challenges
+    usage: /challenge
+    aliases: [ch]
+  insurance:
+    description: Buy death insurance
+    usage: /insurance
+# Crates/Roulette/SupplyDrop
+  crate:
+    description: Spin a mystery crate
+    usage: /crate spin
+  roulette:
+    description: Spin the wheel!
+    usage: /roulette <red|green|black> <amount>
+  supplydrop:
+    description: Spawn a supply drop manually
+    permission: ptk.supplydrop
+# CLANS SECTION:
+  clan:
+    description: Clan management command
+    usage: /clan <create|join|leave|info|sethome|home>
+  boss:
+    description: Boss event management
+    usage: /boss <spawn|enable|disable>
+    permission: boss.admin
+
+
+permissions:
+  boss.admin:
+    description: Allows access to /boss
+    default: op
+  ptk.supplydrop:
+    description: Allows access to /supplydrop
+    default: op
+  ptk.donate:
+    description: Allows access to /donate
+    default: op
+  ptk.set:
+    description: Allows access to /set balance
+    default: op
+  ptk.shopset:
+    description: Allows access to /shop set
+    default: op
+  ptk.shopremove:
+    description: Allows removing shop items
+    default: op
+
